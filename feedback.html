@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <title>Contact me</title>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <link rel="stylesheet" type="text/css" href="./css/global.css">
+   <link rel="stylesheet" type="text/css" href="./css/feedback.css">
+   <script src="script/nav.js"></script>
+</head>
+
+<body class="feedback_body">
+   <!-- container of this page -->
+   <div class="feedback_container">
+      <h1>Feedback</h1>
+      <!-- form to send feedback -->
+      <form id="feedback_form" enctype="text/plain" action="mailto:u7201825@anu.edu.au">
+         <label>Your name</label>
+         <br />
+         <input type="text" name="user name" id="name" size="33" maxlength="50" placeholder="enter your name here...">
+         <br />
+         <label>Your email address</label>
+         <br />
+         <input type="text" name="email" id="email" size="33" maxlength="50"
+            placeholder="enter your email address here...">
+         <br />
+         <label>What is your gender?</label>
+         <br />
+         <label><input name="gender" type="radio" value="" />Male </label>
+         <label><input name="gender" type="radio" value="" />Female </label>
+         <label><input name="gender" type="radio" value="" />Other </label>
+         <label><input name="gender" type="radio" value="" />I prefer not to say </label>
+         <br />
+         <label>Any things you expect in my website</label>
+         <br />
+         <textarea class="feedback" name="feedback"
+            placeholder="what you expect me to add in this website"></textarea>
+         <br />
+         <label>Please fill in your feedback</label>
+         <br />
+         <textarea class="feedback" name="feedback"
+            placeholder="any suggestions or feedback here..."></textarea>
+         <br />
+         <input type="submit" id="submit" value="Send it">
+         <input type="reset" id="reset" value="Clear">
+      </form>
+   </div>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+img {
+  width: auto;
+  height: 800px;
+  margin-top: 25px;
+}
+div.imagemap_container {
+  margin-left: 30px;
+}
+
+.imagemap {
+  background-color: #071368;
+}

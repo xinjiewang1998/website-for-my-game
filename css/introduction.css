@@ -1,0 +1,27 @@
+/* css for intruduction and passion page */
+
+.introduction {
+  background: url("../Images/mainpage.jpg"); /* https://wall.alphacoders.com/big.php?i=1123014Links to your background image, which you can also replace with a URL. */
+  background-size: cover; /* Image covers page. */
+  background-attachment: fixed; /* Image doesn't move when you scroll up or down. */
+  color: black;
+  font-size: 20px;
+}
+.introduction p {
+  /* make the background color transparent without the text become transparent */
+  background-color: rgba(218, 229, 228, 0.5);
+  padding: 10px;
+}
+/* make the content width 1/2 of the page for better reading */
+.introduction .content_me {
+  width: 50%;
+  line-height: 200%;
+}
+
+.introduction h1,
+hr,
+p {
+  margin-top: 10px;
+}
+
+

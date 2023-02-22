@@ -1,0 +1,20 @@
+/* css for sitemap. */
+.sitemap_container {
+  height: 500px;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+ul{
+  float:left; /* two list on the same line */
+  padding:30px;
+  margin-left:170px;
+}
+
+/* mouse over link */
+.sitemap_container a:hover {
+  color: #ad3dfa;
+}

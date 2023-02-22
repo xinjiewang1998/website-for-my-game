@@ -1,0 +1,72 @@
+/* different background picture of five gallery pages */
+.Mondstadt {
+  background: url("../Images/Mondstadt.png");
+  background-size: cover; /* Image covers page. */
+  background-attachment: fixed; /* Image doesn't move when you scroll up or down. */
+  color: white;
+  font-size: 10px;
+}
+.Liyue {
+  background: url("../Images/Liyue.png");
+  background-size: cover; /* Image covers page. */
+  background-attachment: fixed; /* Image doesn't move when you scroll up or down. */
+  color: white;
+  font-size: 10px;
+}
+.Inazuma {
+  background: url("../Images/Inazuma.png");
+  background-size: cover; /* Image covers page. */
+  background-attachment: fixed; /* Image doesn't move when you scroll up or down. */
+  color: white;
+  font-size: 10px;
+}
+.Sumeru {
+  background: url("../Images/Sumeru.png");
+  background-size: cover; /* Image covers page. */
+  background-attachment: fixed; /* Image doesn't move when you scroll up or down. */
+  color: white;
+  font-size: 10px;
+}
+
+.Concert {
+  background: url("../Images/concertbg.png");
+  background-size: cover; /* Image covers page. */
+  background-attachment: fixed; /* Image doesn't move when you scroll up or down. */
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+/* css for all gallery pages */
+
+/* two picture in a row */
+div.gallery {
+  margin: 20px;
+  border: 1px solid #ccc;
+  width: 300px;
+  display: inline-block;
+  height: auto;
+  /* make the background color transparent without the text become transparent */
+  background-color: rgba(30, 30, 30, 0.5);
+}
+/* hover of the gallery card borders */
+div.gallery:hover {
+  border: 1px solid #777;
+  transform: scale(1.2);
+  transition: .5s;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+/* center the descripthon text */
+div.desc {
+  padding: 10px;
+  text-align: center;
+}
+/* make the gallery center of the page. */
+div.gallery_container {
+  width: 50%;
+  margin-left: 525px;
+}

@@ -1,0 +1,43 @@
+/* css for sourcelog. */
+
+.sourcelog {
+  /* https://webstatic.hoyoverse.com/upload/contentweb/2022/07/14/09d3afe80cdc143b9d1e597b02894294_4782267724484602720.jpg */
+  background: url("../Images/feedbackbg.jpg"); /* Links to your background image, which you can also replace with a URL. */
+  background-size: cover; /* Image covers page. */
+  background-attachment: fixed; /* Image doesn't move when you scroll up or down. */
+}
+.sourcelog_container {
+  margin: auto;
+  text-align: center;
+}
+/* center the table */
+table {
+  margin-top: 50px;
+  border: 3px solid black;
+  width: 80%;
+  text-align: left;
+  table-layout: fixed;
+}
+/* fix the width of the first colum hidden the overflow content */
+.first {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 150px;
+}
+/* table header background color */
+th {
+  background-color: lightblue;
+}
+
+th,td {
+  padding: 10px 10px 10px 10px;
+  width: 300px;
+  height: auto;
+}
+tr {
+  background-color: lightblue;
+}
+tr:hover {
+  background-color: lightgrey;
+}

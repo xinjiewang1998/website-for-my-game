@@ -1,0 +1,32 @@
+/* css for homepage */
+.homepage,.storyboard{
+  background: url("../Images/homepage.png");
+  background-size: cover; /* Image covers page. */
+  background-attachment: fixed; /* Image doesn't move when you scroll up or down. */
+  background-position: top;
+  text-align: center;
+  color: lightblue;
+}
+
+.homepage #name {
+  font-size: 100px;
+}
+
+#message {
+  font-size: 40px;
+}
+
+/* Centers the header container vertically on the page. */
+.homepage_container {
+  height: 500px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.homepage_container a {
+  font-size: 30px;
+}

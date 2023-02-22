@@ -1,0 +1,84 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  font-family: serif, sans-serif;
+}
+.mainpage {
+  background: url("../Images/mainpage.jpg");
+  background-size: cover; /* Image covers page. */
+  background-attachment: fixed; /* Image doesn't move when you scroll up or down. */
+  color: black;
+  font-size: 20px;
+}
+span{
+  font-size:16px;
+  margin-left:5px;
+}
+.main_container {
+  height: 50px;
+  background-color: lightblue; /* navigation bar background color */
+  z-index:1;
+  position: relative;
+
+}
+/* make the video center in the page */
+#video{
+  margin: 0 auto;
+  margin-top: 200px;
+  display: block;
+}
+/* navigation bar layout */
+ul {
+  margin-right: 0;
+  display: inline;
+  font-weight: bold;
+}
+ul a {
+  text-decoration: none; /* remove underline */
+}
+/* style of the first level menu */
+ul li {
+  list-style: none;
+  float: right;
+  width: 160px;
+  height: 50px;
+  line-height: 50px; /* make the text center vertically */
+  text-align: center; /* make the text center horizontally */
+  font-size: 20px;
+}
+ul li ul li {
+  display: none;
+  background-color: lightblue; /* Hide the secondary level menu */
+}
+ul li:hover ul li {
+  /* Display the secondary menu when the mouse on the first level menu */
+  display: block; /* The secondary menu is converted into a block */
+}
+ul li:hover {
+  background-color: orange; /* The background color displayed when the mouse on the menu */
+}
+/* top-left picture */
+.genshin {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px; /* make the picture circular */
+  margin-left: 10px;
+}
+.content{
+  margin: auto;
+  width:60%;
+  margin-top:30px;
+  display: flex;
+  padding:40px;
+  
+}
+.official_twitter,.twitter_community{
+  text-align:center;
+  padding:10px;
+}
+.openbtn,.closebtn{
+  display:none;
+}
+
+
+

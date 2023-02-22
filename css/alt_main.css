@@ -1,0 +1,101 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+.mainpage {
+  background: url("../Images/mainpage.jpg");
+  background-size: cover; /* Image covers page. */
+  background-attachment: fixed; /* Image doesn't move when you scroll up or down. */
+  color: black;
+  font-size: 20px;
+}
+
+.main_container {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  /* padding-top: 60px; */
+}
+
+.main_container a {
+  /* padding: 8px 8px 8px 32px; */
+  text-decoration: none;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+.genshin {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px; /* make the picture circular */
+  margin-left: 10px;
+}
+/* .sidenav a:hover {
+    color: #f1f1f1;
+  } */
+
+.closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  color:white;
+}
+ul {
+  margin-right: 0;
+  display: inline;
+  font-weight: bold;
+}
+/* style of the first level menu */
+ul li {
+  list-style: none;
+  float: left;
+  width: 160px;
+  height: auto;
+  line-height: 30px; /* make the text center vertically */
+  text-align: center; /* make the text center horizontally */
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+ul li ul li {
+  font-size: 13px; /* Hide the secondary level menu */
+}
+ul li:hover {
+  /* The background color displayed when the mouse on the menu */
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+.content {
+  margin: auto;
+  width: 60%;
+  margin-top: 30px;
+  display: flex;
+  padding: 40px;
+}
+.official_twitter,
+.twitter_community {
+  text-align: center;
+  padding: 10px;
+}
+
+/* make the video center in the page */
+#video {
+  margin: 0 auto;
+  margin-top: 200px;
+  display: block;
+}
